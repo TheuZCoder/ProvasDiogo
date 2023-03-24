@@ -11,47 +11,51 @@
 <nav>
     <img src="https://www.marchesan.com.br/uploads/logotatu.png" alt="logo" class="logo">
     <ul class="nav-links">
-        <li><a href="formularioTatu.html">LOGIN</a></li>
+        <li><a href="formularioTatu.html">PAGINA INICIAL</a></li>
         <li><a href="cadastro.html">CADASTRO</a></li>
-        <li><a href="#">ENDEREÇO</a></li>
+        <li><a href="login.html">LOGIN</a></li>
         <li><a href="#">SOBRE NÓS</a></li>
     </ul>
 </nav>
 
 <body>
-    <div class="p1">
+
+    <div class="d1">
 
         <h1 class="titulo">Novo Usuário</h1>
         <hr>
-        <form>
+        <div class="d2">
+            <form>
+                Nome:
+                <INPUT TYPE="TEXT" NAME="nome" SIZE="60" placeholder="Informe seu Nome"><br>
 
-            Nome:
-            <INPUT TYPE="TEXT" NAME="nome" SIZE="60" placeholder="Informe seu Nome">
+                CPF:
+                <INPUT TYPE="TEXT" NAME="CPF" SIZE="22" placeholder="Informe seu CPF">
 
-            CPF: 
-            <INPUT TYPE="TEXT" NAME="CPF" SIZE="20" placeholder="Informe seu CPF">
+                Endereço:
+                <INPUT TYPE="TEXT" NAME="CPF" SIZE="24" placeholder="Informe seu Endereço">
 
+                Nivel: <SELECT NAME="faixaidade">
+                    <OPTION VALUE="Casa"> Casa
+                    <OPTION VALUE="Apartamento"> Apartamento
+                    <OPTION VALUE="Sitio"> Sitio
+                </select> <br>
 
-            Endereço: <br>
-            <INPUT TYPE="TEXT" NAME="CPF" SIZE="24" placeholder="Informe seu Endereço">
+                Email:
+                <INPUT TYPE="TEXT" NAME="EMAIL" SIZE="24" placeholder="Informe seu Email">
 
-            Nivel: <SELECT NAME="faixaidade">
-                <OPTION VALUE="Casa"> Casa
-                <OPTION VALUE="Apartamento"> Apartamento
-                <OPTION VALUE="Sitio"> Sitio
-            </select>
+                Senha:
+                <INPUT TYPE="TEXT" NAME="SENHA" SIZE="24" placeholder="Informe sua Senha">
 
-            Email: <br>
-            <INPUT TYPE="TEXT" NAME="EMAIL" SIZE="24" placeholder="Informe seu Email">
+                Status: <SELECT NAME="AtivoOuInativo">
+                    ]<OPTION VALUE="ATIVO"> Ativo
+                    <OPTION VALUE="INATIVO"> Inativo
+                </select><br>
+                <button class="enviar">Enviar</button>
+                <button class="cancelar">cancelar</button>
+            </form>
 
-            Senha: <br>
-
-            Status: <SELECT NAME="AtivoOuInativo">
-                <OPTION VALUE="ATIVO"> Ativo
-                <OPTION VALUE="INATIVO"> Inativo
-            </select>
-    </div>
-    </form>
+        </div>
 </body>
 
 </html>

@@ -39,6 +39,8 @@ nav a:hover {
 }
 
 body {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(238, 255, 0, 0.692) 100%, rgba(238, 255, 0, 0.658) 100%);
     background-color: #ffffff;
     margin: 0;
 }
@@ -46,12 +48,22 @@ body .d1 {
     background: rgb(255, 255, 255);
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(238, 255, 0, 0.534) 100%, rgba(238, 255, 0, 0.534) 100%);
     margin-top: 2%;
-    margin-left: 25%;
+    margin-left: 10%;
     margin-right: 10%;
-    width: 50%;
 }
-
-body .enviar {
-    margin-left: 85%
+body .d2 {
+    display: flex;
+}
+body .img {
+    width: 150px;
+    height: 150px;
+}
+body .login {
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
 }
 
