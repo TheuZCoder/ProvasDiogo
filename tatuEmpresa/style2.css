@@ -39,8 +39,6 @@ nav a:hover {
 }
 
 body {
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(238, 255, 0, 0.692) 100%, rgba(238, 255, 0, 0.658) 100%);
     background-color: #ffffff;
     margin: 0;
 }
@@ -59,6 +57,8 @@ body .img {
     height: 150px;
 }
 body .login {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(238, 255, 0, 0.692) 100%, rgba(238, 255, 0, 0.658) 100%);
     border-radius: 50%;
     background-color: #fff;
     margin-top: 5%;
