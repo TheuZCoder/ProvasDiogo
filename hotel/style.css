@@ -1,0 +1,174 @@
+nav {
+    background-color: #948e8e60;
+    border-color: rgba(247, 2, 2, 0.5);
+    color: #fff;
+    overflow: hidden;
+    /* adicionado para limpar o float */
+  }
+  
+  nav img.logo {
+    float: left;
+    margin-left: 20px;
+    margin-right: 1rem;
+    width: 10%;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  
+  nav li {
+    margin-right: 3rem;
+    display: inline-block;
+    /* adicionado para exibir os itens lado a lado */
+  }
+  
+  nav a {
+    display: block;
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  body {
+    margin: 0;
+  }
+  /*  PRIMEIRO BANNER*/
+  .banner {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 4%;
+    width: 65%;
+    height: 500px;
+    padding: 60px;
+    display: table;
+    box-shadow: -1px -2px 5px 13px rgba(230, 225, 225, 0.75);
+  }
+  
+  .banner img {
+    width: 40%;
+    height: 500px;
+    float: right;
+    border-style: ridge;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.274);
+  }
+  
+  .banner .texto {
+    margin-top: 50px;
+    width: 50%;
+    font-size: 22px;
+  }
+  /*SEGUNDO BANNER*/
+  .banner1 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 4%;
+    width: 65%;
+    height: 500px;
+    padding: 60px;
+    display: table;
+    box-shadow: -1px -2px 5px 13px rgba(230, 225, 225, 0.75);
+  }
+  
+  .banner1 img {
+    width: 40%;
+    height: 500px;
+    float: left;
+    border-style: ridge;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.274);
+  }
+  
+  .banner1 .texto2 {
+    margin-top: 50px;
+    width: 50%;
+    font-size: 22px;
+    float: right;
+  }
+  
+  /*TERCEIRO BANNER*/
+  
+  .banner3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: auto;
+    margin-left: auto ;
+    border-radius: 4%;
+    width: 75%;
+    height: 500px;
+    padding: 60px;
+    display: table;
+    box-shadow: -1px -2px 5px 13px rgba(230, 225, 225, 0.75);
+  }
+  
+  .banner3 iframe {
+    width: 40%;
+    position: relative;
+    height: 500px;
+    float: right;
+    border-style: ridge;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.274);
+  }
+  
+  .banner3 .texto3 {
+    margin-top: 50px;
+    width: 55%;
+    font-size: 22px;
+    float: left;
+  }
+  
+  /*PAINÉIS*/
+  
+  .panel:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .panel-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .panel {
+    cursor: pointer;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    width: 15%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #272525;
+  }
+  /*MENU LATERAL*/
+  .sidebar {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: none;
+    color: black;
+    padding: 20px;
+    float: right;
+  }
+  
+  .content {
+    margin-left: 200px; /* Adapte a margem para o tamanho do menu lateral */
+    padding: 20px;
+  }
+  
+  /*RESPONSIVIDADE*/
+  
